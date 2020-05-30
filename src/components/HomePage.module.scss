@@ -1,0 +1,47 @@
+.homePageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.welcomeLeft {
+  width: 300px;
+  height: 460px;
+}
+
+.welcomeRight {
+  width: 215px;
+  height: 515px;
+}
+
+.homePageCenterContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.logoImage {
+  height: 80px;
+  width: 100px;
+}
+
+.headerTitle {
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.description {
+  max-width: 354px;
+  font-size: 20px;
+}
+
+.getStartedButton {
+  background-color: #0078d4;
+  width: 170px;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 25px;
+}
